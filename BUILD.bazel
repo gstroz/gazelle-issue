@@ -1,0 +1,8 @@
+# This file is needed for golang/gazelle tools.
+
+load("@bazel_gazelle//:def.bzl", "gazelle")
+
+# gazelle:prefix github.com/gstroz/gazelle-issue
+# gazelle:build_file_name BUILD,BUILD.bazel
+gazelle(name = "gazelle")
+
